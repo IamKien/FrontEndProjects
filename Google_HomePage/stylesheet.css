@@ -1,5 +1,5 @@
 body{
-  height: 100%;
+  margin: 20px 0 0 0;
   font-family: arial, sans-serif;
 }
 
@@ -8,18 +8,23 @@ a {
 }
 li{
   display: inline-block;
-
 }
 
 header nav{
   height: 30px;
   display: block;
+  font-size: 13px;
+  padding: 10px;
 }
 
 header ul{
   float: right;
   margin-top: 5px;
   margin-right: 5px;
+}
+
+header li{
+  margin: 5px;
 }
 
 
@@ -48,7 +53,11 @@ footer{
   width: 100%;
   bottom: 0;
   position: fixed;
-  padding: 10px;
+  height: 40px;
+  background-color: #F2F2F2;
+  border-top: 1px solid #e4e4e4;
+
+  font-size: 13px;
 }
 
 #footer_left{
@@ -57,6 +66,12 @@ footer{
 
 #footer_right{
   float: right;
-  margin-right: 30px;
+  padding: 0 30px 5px 0;
+}
+
+#sign_in{
+  background-color: #4584F0;
+  color: white;
+  height: 30px;
 }
 
